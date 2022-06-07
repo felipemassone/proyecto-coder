@@ -70,21 +70,6 @@ header {
 }
 
 
-
-button {
-    margin: 10px 50px;
-    position: relative;
-    padding: 10px 20px;
-    font-size: 15px;
-    border: none;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    width: 100px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
-
 footer{
     bottom: 0;
     padding-top: 100px;
@@ -93,9 +78,8 @@ footer{
 }
 
 
-.container-fluid img {
-    height: 100px;
-    padding: 0px 10px;
+.logonav  {
+    height: 80px;
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     display: block;
@@ -108,9 +92,6 @@ footer{
 #services{
     margin-top: 100px;
     margin-bottom: 100px;
-}
-.card{
-    margin-top: 100px;
 }
 .card-body{
     padding: 80px;
