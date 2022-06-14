@@ -9,7 +9,6 @@ body {
 
 }
 
-
 a {
     text-decoration: none;
     color: black;
@@ -126,7 +125,7 @@ footer{
     }
     .about-img{
         width: 250px;
-        height: 250px;
+        height: 300px;
         }
 
 }
