@@ -111,6 +111,12 @@ footer{
 
 
 
+@media screen and (max-width: 425px) {
+    .about-text{
+        margin-top: 85px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .carousel-caption h5 {
         font-size: 1rem;
@@ -118,6 +124,11 @@ footer{
     .carousel-caption p {
         font-size: 0.8rem;
     }
+    .about-img{
+        width: 250px;
+        height: 250px;
+        }
+
 }
 
 @media screen and (min-width: 768px) {
