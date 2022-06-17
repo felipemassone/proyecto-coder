@@ -1,0 +1,40 @@
+
+@mixin movil {
+    
+
+@media screen and (max-width: 425px) {
+    @content;
+    .about-text{
+        margin-top: 85px;
+    }
+}
+}
+@mixin tablet {
+    
+
+@media screen and (max-width: 768px) {
+    @content;
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+    .about-img{
+        width: 250px;
+        height: 300px;
+        }
+
+}
+}
+
+@mixin laptop {
+    
+
+@media screen and (min-width: 768px) {
+    @content;
+    .carousel-caption{
+        bottom: 220px;
+    }
+}
+}

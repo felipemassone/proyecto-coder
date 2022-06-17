@@ -1,16 +1,16 @@
 .carousel-caption {
-    bottom: 220px;
     z-index: 2;
 
 
-& h5 {
+ h5 {
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 25px;
+    
 }
 
-& p {
+ p {
     width: 60%;
     margin: auto;
     font-size: 18px;
@@ -26,6 +26,27 @@
     left: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
+}
+
+@include tablet{
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+    .about-img{
+        width: 250px;
+        height: 300px;
+        }
+
+}
+
+@include laptop{
+    .carousel-caption{
+        bottom: 220px;
+}
+
 }
 
 }

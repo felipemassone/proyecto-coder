@@ -63,7 +63,7 @@ header {
     letter-spacing: 2px;
 }
 
-.navbar-light .navbar-brand:focus .navbar-light .navbar-brand:hover {
+.navbar-brand:focus .navbar-brand:hover {
     color: #000;
 }
 

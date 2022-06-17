@@ -1,5 +1,4 @@
 .carousel-caption {
-  bottom: 220px;
   z-index: 2;
 }
 
@@ -28,7 +27,106 @@
   z-index: 1;
 }
 
-.header {
+header {
   background-color: #dcdcdc;
+}
+
+.navbar-nav a {
+  margin: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-brand:focus .navbar-brand:hover {
+  color: #000;
+}
+
+.about-section-padding {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.card-body {
+  padding: 80px;
+}
+
+footer {
+  bottom: 0;
+  padding-top: 100px;
+  font-size: 0.8rem;
+}
+
+.logonav {
+  height: 79px;
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: block;
+}
+
+#services {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#services h2 {
+  font-size: 3rem;
+}
+
+#services h3 {
+  font-size: 1.2rem;
+}
+
+.contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 425px) {
+  .about-text {
+    margin-top: 85px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+  .about-img {
+    width: 250px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-caption {
+    bottom: 220px;
+  }
+}
+
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "montserrat";
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */
