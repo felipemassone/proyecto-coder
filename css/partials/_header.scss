@@ -3,5 +3,5 @@ $color:(
 );
 
 header{
-    background-color: map-get($map: $color, $key:primary ) ;
+    background-color: map-get($color, primary ) ;
 }

@@ -1,0 +1,10 @@
+$colores: (
+    gris: gainsboro,
+    negro: #000,
+);
+
+@each $name, $color in $colores {
+    .navbar#{$name} {
+    background-color: $color;
+    }
+}
