@@ -1,7 +1,10 @@
 .carousel-caption {
   z-index: 2;
+  bottom: 2rem;
 }
-
+.w-100 {
+  max-height: calc(110vh - 110px);
+}
 .carousel-caption h5 {
   font-size: 45px;
   text-transform: uppercase;

@@ -1,7 +1,7 @@
 {
-  "name": "raiz",
+  "name": "Galu studio",
   "version": "1.0.0",
-  "description": "paquete sass",
+  "description": "pagina web marketing digital",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
